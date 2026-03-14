@@ -6,7 +6,7 @@ const catalog = [
         "title":"Orange",
         "category":"fruit",
         "price": 15.99,
-        "image":"orange.jpg", //placeholder img
+        "image":"Orange.png", //placeholder img
         "_id":"1" // Must be Unique
     },
 
@@ -14,7 +14,7 @@ const catalog = [
         "title":"Apple",
         "category":"fruit",
         "price": 20.99,
-        "image":"apple.jpg", //placeholder img
+        "image":"Apple.png", //placeholder img
         "_id":"2" // Must be Unique
     },
 
@@ -22,7 +22,7 @@ const catalog = [
         "title":"Strawberries",
         "category":"berry",
         "price": 15.99,
-        "image":"strawberries.jpg", //placeholder img
+        "image":"Strawberry.png", //placeholder img
         "_id":"3" // Must be Unique
     },
 ];
