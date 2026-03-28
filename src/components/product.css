@@ -13,8 +13,8 @@ img {
     align-items: center;
     gap: 20px;
     padding: 20px;
-    background: linear-gradient(135deg, #1e293b, #334155);
-    border: 1px solid #475569;
+    background-color:#3E2C23;
+    border: 1px solid gray;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
 }
@@ -27,13 +27,13 @@ img {
 }
 
 .product-info h5 {
-    color: #e2e8f0;
+    color: #fff;
     margin: 0 0 4px 0;
 }
 
 .product-description {
     font-size: 0.95rem;
-    color: #94a3b8;
+    color: #fff;
     font-weight: 400;
     margin: 4px 0 12px 0;
 }
@@ -42,6 +42,6 @@ img {
     display: flex;
     gap: 16px;
     margin-bottom: 8px;
-    color: #a5b4c8;
+    color: #fff;
     font-weight: 600;
 }

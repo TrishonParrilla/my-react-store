@@ -1,7 +1,12 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar';
+import About from './pages/About'
+import Home from './pages/Home'
 import Catalog from './pages/Catalog';
-import Footer from './components/footer';
+import Contact from './pages/Contact';
+import Footer from './components/Footer';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
@@ -9,12 +14,19 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
 
   return (
-    <>
+    <BrowserRouter>
         <Navbar />
-          <Catalog />
+
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/about' element={<About />}/>
+          <Route path='/catalog' element={<Catalog />} />
+          <Route path='/contact' element={<Contact />} />
+        </Routes>
+
+        
         <Footer />
-      
-    </>
+    </BrowserRouter>
   )
 }
 

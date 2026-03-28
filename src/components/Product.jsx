@@ -15,6 +15,7 @@ function Product(props) {
                 <div className="prices">
                     <label>${props.data.price.toFixed(2)}</label>
                     <label>Total: ${total.toFixed(2)}</label>
+                    
                 </div>
                 <QuantityPicker quantity={quantity} setQuantity={setQuantity} />
             </div>

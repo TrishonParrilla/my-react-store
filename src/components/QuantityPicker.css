@@ -1,12 +1,11 @@
 .quantity-picker {
     display: flex;
     align-items: center;
-    gap: 10px;
 }
 
 .quantity-picker label {
-    color: #e2e8f0;
-    font-size: 1rem;
+    color: #fff;
+    font-size: 1em;
     font-weight: 600;
     min-width: 24px;
     text-align: center;
@@ -14,13 +13,13 @@
 
 .quantity-picker .btn-minus,
 .quantity-picker .btn-plus {
-    background: linear-gradient(135deg, #1e293b, #334155);
-    color: #a5b4c8;
-    border: 1px solid #475569;
-    border-radius: 6px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #FFF;
+    border-radius: 12px;
     width: 32px;
     height: 32px;
-    font-size: 1.1rem;
+    font-size: 1em;
     font-weight: 700;
     cursor: pointer;
     padding: 0;
@@ -32,8 +31,7 @@
 
 .quantity-picker .btn-minus:hover,
 .quantity-picker .btn-plus:hover {
-    background: #6366f1;
-    border-color: #6366f1;
+    background: #E76F2E;
     color: #fff;
 }
 

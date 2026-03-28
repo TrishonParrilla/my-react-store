@@ -1,4 +1,4 @@
-import Product from "../components/product"
+import Product from "../components/Product"
 import "./Catalog.css"
 import DataService from "../services/dataService";
 import { useEffect, useState } from "react";

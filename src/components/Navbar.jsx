@@ -1,4 +1,5 @@
 //Import
+import {Link} from "react-router-dom"
 import "./Navbar.css"
 
 //logic
@@ -11,9 +12,10 @@ function Navbar() {
             <button>Search</button>
           </div>
           <div className="navbar-links">
-            <a href="#home">Home</a>
-            <a href="#catalog">Catalog</a>
-            <a href="#about">About</a>
+            <Link to={'/'}>Home</Link>
+            <Link to={'/about'}>About</Link>
+            <Link to={'/catalog'}>Catalog</Link>
+            <Link to ={'/contact'}>Contact</Link>
           </div>
         </div>
     )
