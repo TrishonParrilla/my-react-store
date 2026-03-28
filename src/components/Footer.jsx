@@ -3,7 +3,7 @@ import "./Footer.css";
 function Footer() {
     return(
         <div className="footer">
-            <label> © Copyright 2024</label>
+            <p> © Copyright 2024</p>
         </div>
     )
 }

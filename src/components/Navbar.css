@@ -9,7 +9,7 @@
 }
 
 h1.navbar-brand {
-    color: #fff;
+    color: #fff !important;
     font-size: 1.4rem;
     margin: 0;
     margin-left: 40px;
@@ -46,6 +46,9 @@ h1.navbar-brand {
     height: 36px;
 }
 
+.navbar-search input:focus {
+    outline: none;
+}
 
 .navbar-search button {
     margin-left:5px;
@@ -60,5 +63,5 @@ h1.navbar-brand {
 }
 
 .navbar-search button:hover {
-    background-color: #535bf2;
+    background-color: #966a55;
 }
