@@ -23,7 +23,7 @@ a:hover {
 body {
   margin: 0;
   min-width: 320px;
-  min-height: 100vh;
+  min-height: 100%;
   background-color: #3E2C23 !important;
   color: rgba(255, 255, 255, 0.87) !important;
 }
