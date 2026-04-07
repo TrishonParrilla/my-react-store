@@ -3,6 +3,7 @@ import { useContext } from 'react';
 import GlobalContext from '../state/globalContext.js'
 import {Link} from "react-router-dom"
 import "./Navbar.css"
+import { IconUser } from '@tabler/icons-react';
 
 //logic
 function Navbar() {
@@ -16,7 +17,7 @@ function Navbar() {
             <Link to={'/catalog'}>Catalog</Link>
             <Link to ={'/contact'}>Contact</Link>
             <Link to ={'/Admin'}>Admin</Link>
-            <Link to ={'/profile'}>{user.firstName}</Link>
+            <Link to ={'/profile'}><IconUser size={24} color='orange'/>{user.firstName}</Link>
           </div>
         </div>
     )

@@ -31,8 +31,9 @@
 
 .quantity-picker .btn-minus:hover,
 .quantity-picker .btn-plus:hover {
-    background: #E76F2E;
-    color: #fff;
+    background: #E8A849;
+    border-color: #E8A849;
+    color: #1A3263;
 }
 
 .quantity-picker .btn-minus:disabled,

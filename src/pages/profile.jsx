@@ -11,6 +11,7 @@ function Profile() {
             <h2>{user.firstName} {user.lastName}</h2>
             <h3>{user.email}</h3>
             <h4>{user.address.city}</h4>
+            <img src={user.avatar}/>
         </div>
     )
 }
