@@ -1,11 +1,31 @@
+import './About.css';
+
 function About() {
     return(
-        <div>
-            <h1>About Us</h1>
-            <p>Welcome to My Store! We are a family-owned business dedicated to providing high-quality products at affordable prices. Our mission is to make shopping easy and enjoyable for everyone.</p>
-            <p>Founded in 2025, we have been serving our community with a wide range of products, from electronics to home goods. We pride ourselves on our excellent customer service and commitment to customer satisfaction.</p>
-            <p>Thank you for choosing My Store. We look forward to serving you!</p>
+        <div className='about-container'>
+            <div className="about-image">
+                <img src="https://www.impactbnd.com/hubfs/blog-image-uploads/best-about-us-pages.jpg"/>
+            </div>
+            <div className="about">
+                <h1>Our Mission</h1>
+            </div>
+            <div className='card-container'>
+                <div className='card-div'>
+                    <h2>Our Story</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies lacinia, nunc nisl aliquam nisl, eget aliquam nunc nisl eget nunc. Donec auctor, nisl eget ultricies lacinia, nunc nisl aliquam nisl, eget aliquam nunc nisl eget nunc.</p>
+                </div>
+                <div className='card-div'>
+                    <h2>Our Team</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies lacinia, nunc nisl aliquam nisl, eget aliquam nunc nisl eget nunc. Donec auctor, nisl eget ultricies lacinia, nunc nisl aliquam nisl, eget aliquam nunc nisl eget nunc.</p>
+                </div>
+                <div className='card-div'>
+                    <h2>Our Values</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies lacinia, nunc nisl aliquam nisl, eget aliquam nunc nisl eget nunc. Donec auctor, nisl eget ultricies lacinia, nunc nisl aliquam nisl, eget aliquam nunc nisl eget nunc.</p>
+                </div>
+            </div>
+
         </div>
+
     )
 }
 

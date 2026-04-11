@@ -1,5 +1,6 @@
 img {
-    width: 300px;
+    max-width: 300px;
+    max-height: 300px;
     height: auto;
     border-radius: 8px;
 }
@@ -15,7 +16,7 @@ img {
     padding: 20px;
     background-color:#213A5C;
     border: 1px solid #3D5A80;
-    border-radius: 10px;
+    border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
 }
 

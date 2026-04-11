@@ -1,16 +1,16 @@
 .catalog-hero {
-    background-color:#F0F4F8;
-    border: 1px solid #DDE5ED;
-    border-radius: 8px;
+    background-color:rgba(26, 50, 99, 0.9);
+    border: 1px solid #1A3263;
+    border-radius: 15px;
     padding: 40px 32px;
     margin: 50px auto;
     width: 90%;
-    max-width: 1000px;
+    max-width: 40%;
     text-align: center;
 }
 
 .catalog-hero h1 {
-    color: #1A3263;
+    color: #F0F4F8;
     font-size: 2em;
 }
 
@@ -21,14 +21,14 @@
 }
 
 .categories-buttons button {
+    border:none;
     background-color:#1A3263;
     color: #F0F4F8;
     padding: 8px 16px;
     font-size: 1em;
     border-radius: 10px;
     cursor: pointer;
-    transition: background-color 0.2s;
-    transition: transform 0.5s
+    transition: background-color 0.2s, transform 0.5s;
 }
 
 .categories-buttons button:hover {

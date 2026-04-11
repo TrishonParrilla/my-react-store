@@ -13,7 +13,7 @@ function Catalog(){
         let service = new DataService();
         let data = service.getProducts();
         setProductsToDisplay(data); //initially display all products
-        let cats = ["fruit","berry"] // placeholder for categories
+        let cats = ["clothing","accessory"] // placeholder for categories
         setCategories(cats);
     }
 

@@ -10,7 +10,7 @@ function Navbar() {
   const user = useContext(GlobalContext).user;
     return(
         <div className="navbar">
-          <h1 className="navbar-brand">My React Store</h1>
+          <h1 className="navbar-brand">Joel's Market</h1>
           <div className="navbar-links">
             <Link to={'/'}>Home</Link>
             <Link to={'/about'}>About</Link>

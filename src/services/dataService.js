@@ -3,29 +3,29 @@
 
 const catalog = [
     {
-        "title":"Orange",
-        "description":"Juicy and sweet citrus fruit, packed with vitamin C and perfect for snacking or fresh juice.",
-        "category":"fruit",
+        "title":"Hand Bag",
+        "description":"A stylish and practical hand bag, perfect for carrying your essentials in style.",
+        "category":"accessory",
         "price": 15.99,
-        "image":"Orange.png", //placeholder img
+        "image":"handbag.jpg", //placeholder img
         "_id":"1" // Must be Unique
     },
 
     {
-        "title":"Apple",
-        "description":"Crisp and refreshing, a versatile fruit great for eating raw, baking, or making cider.",
-        "category":"fruit",
+        "title":"Jacket",
+        "description":"A stylish and comfortable jacket, perfect for keeping warm in cooler weather.",
+        "category":"clothing",
         "price": 20.99,
-        "image":"Apple.png", //placeholder img
+        "image":"jacket.jpg", //placeholder img
         "_id":"2" // Must be Unique
     },
 
     {
-        "title":"Strawberries",
-        "description":"Sweet and fragrant berries, perfect for desserts, smoothies, or eating fresh from the basket.",
-        "category":"berry",
+        "title":"Dress",
+        "description":"A stylish and elegant dress, perfect for any occasion.",
+        "category":"clothing",
         "price": 15.99,
-        "image":"Strawberry.png", //placeholder img
+        "image":"dress.jpg", //placeholder img
         "_id":"3" // Must be Unique
     },
 ];

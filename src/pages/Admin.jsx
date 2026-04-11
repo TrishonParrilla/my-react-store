@@ -88,8 +88,8 @@ function Admin(){
                                     <div className='product-card'>
                                         <img src={product.image} alt={product.title} />
                                         <div className='card-body'>
-                                            <p>{product.category}</p>
-                                            <h5>{product.title}</h5>
+                                            <h4>{product.category}</h4>
+                                            <h6>{product.title}</h6>
                                             <h6>${product.price}</h6>
                                         </div>
                                     </div>

@@ -15,7 +15,7 @@ function Contact() {
     }
 
     return(
-        <div>
+        <div className='contact-container'>
             <p>Welcome. You Can find us at 123 React Street, JavaScript City, JS 12345</p>
 
             

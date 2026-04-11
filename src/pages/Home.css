@@ -1,0 +1,75 @@
+
+.home-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    background-color:rgba(0, 0, 0, 0.10);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    height:100%;
+}
+
+.home-welcome{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: 1em 18em;
+    gap:.5em;
+    background-color:rgba(26, 50, 99, 0.8);
+    border-radius: 10px;
+    padding:1em;
+}
+
+.welcome-intro-text{
+    font-size: 1em;
+    margin: 0.5em 0;
+}
+
+.home-image img{
+    width: 250px;
+    height: 100%;
+    border-radius: 7px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.home-image{
+    display: flex;
+    justify-content: start;
+    gap:1em;
+    margin: 0.5em 18em;
+    background-color:rgba(26, 50, 99, 0.8);
+    border-radius: 10px;
+    padding:1em;
+}
+
+.shopping-cart-image {
+    width: 250px;
+    height: 100%;
+    border-radius: 9px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    background-color:rgba(0,0,0,0.1);
+    backdrop-filter: blur(5px);
+    color:#F0F4F8;
+    text-align: center;
+    transition: transform 0.5s, box-shadow 0.2s, background-color 0.2s;
+
+}
+
+.mens:hover,.womens:hover,.kids:hover,.accessories:hover, .shopping-cart-image:hover {
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    cursor:pointer;
+    outline: 2px solid #C07A1A;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+
+.mens, .womens, .kids, .accessories{
+    width: 250px;
+    height: 100%;
+    text-align: center;
+    background-color:rgba(0,0,0,0.1);
+    backdrop-filter: blur(5px);
+    color:#F0F4F8;
+    border-radius: 9px;
+    transition: transform 0.5s, box-shadow 0.2s, background-color 0.2s;
+}

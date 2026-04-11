@@ -1,13 +1,33 @@
+
+.contact-container {
+    margin: 5em auto;
+    width: 90%;
+    max-width: 40%;
+    text-align: center;
+    background-color:rgba(26, 50, 99, 0.5);
+    color: #F0F4F8;
+    border-radius: 10px;
+    padding: 1.5em;
+}
+
+
+
 .global-button {
-    background-color:#E8A849;
-    color:#1A3263;
+    background-color:#1A3263;
+    color:#F0F4F8;
     padding: 5px 16px;
     font-size: 1em;
     margin-right:10px;
     border-radius: 10px;
     cursor: pointer;
-    transition: background-color 0.2s;
-    transition: transform 0.5s
+    transition: background-color 0.2s, transform 0.5s;
+    border:none;
     
 }
 
+.global-button:hover {
+    background-color:#D4922E;
+    color:#1A3263;
+    transform: translateY(-3px);
+
+}
